@@ -1,6 +1,6 @@
 import './style.css'
 
-const Header = () => {
+const Home = () => {
     return (
         <>
             <header className="header">
@@ -35,4 +35,4 @@ const Header = () => {
     )
 }
 
-export default Header
+export default Home

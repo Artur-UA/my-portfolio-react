@@ -103,3 +103,13 @@
 	position: relative;
 	z-index: 9;
 }
+
+@media (max-width: 620px) {
+	.nav-row {
+		justify-content: space-between;
+	}
+
+	.dark-mode-btn {
+		order: 0;
+	}
+}

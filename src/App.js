@@ -1,12 +1,16 @@
 import './App.css';
-import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
+import Home from './components/home/Home';
 import Navbar from './components/navbar/Navbar';
+import Contacts from './Pages/Contacts';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Header/>
+      <Home/>
+      {/* <Contacts/> */}
+      <Footer/>
     </div>
   );
 }
